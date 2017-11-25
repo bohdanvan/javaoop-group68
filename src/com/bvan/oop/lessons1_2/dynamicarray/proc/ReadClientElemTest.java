@@ -1,4 +1,4 @@
-package com.bvan.oop.lessons1_2.dynamicarray;
+package com.bvan.oop.lessons1_2.dynamicarray.proc;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class ReadClientElemTest {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = DynamicArrayApp.readClientElem(scanner);
+        int n = ProcDynamicArrayApp.readClientElem(scanner);
         System.out.println("n = " + n);
     }
 }

@@ -1,13 +1,12 @@
-package com.bvan.oop.lessons1_2.dynamicarray;
+package com.bvan.oop.lessons1_2.dynamicarray.proc;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
 /**
  * @author bvanchuhov
  */
-public class DynamicArrayApp {
+public class ProcDynamicArrayApp {
 
     public static void main(String[] args) {
         int[] elems = readClientElemsFromConsole();
