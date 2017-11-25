@@ -15,35 +15,16 @@ public class OOPDynamicArrayApp {
     }
 
     private static DynamicArray readClientElemsFromConsole() {
-        Scanner scanner = new Scanner(System.in);
+        RepeatableReader reader = new RepeatableReader(System.in);
 
         DynamicArray elems = new DynamicArray();
 
-        int n = readClientElem(scanner);
+        int n = reader.readInt();
         while (n != 0) {
             elems.addLast(n);
 
-            n = readClientElem(scanner);
+            n = reader.readInt();
         }
         return elems;
-    }
-
-    public static int readClientElem(Scanner scanner) {
-        System.out.print(">> ");
-
-        while (!scanner.hasNextInt()) {
-            scanner.next();
-            System.out.println("Sorry, illegal input");
-
-            System.out.print(">> ");
-        }
-
-        return scanner.nextInt();
-    }
-
-    private static int[] addLastElem(int[] elems, int n) {
-        int[] newElems = Arrays.copyOf(elems, elems.length + 1);
-        newElems[newElems.length - 1] = n;
-        return newElems;
     }
 }
