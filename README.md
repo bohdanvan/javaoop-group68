@@ -15,6 +15,8 @@ Prog.kiev.ua. Java OOP. Группа 66
 
 [Задание на курсовой проект](https://docs.google.com/document/d/1BD_RtdtKI4MZylI_UGOGdE8_d2CZTZnfVCWwirvSVbU/edit)
 
+[Распределение тем на курсовой проект](https://docs.google.com/spreadsheets/d/10-hukaVVuGdMxAqPr1D6r8fQugmXrRszCMycrLDrsk4/edit?usp=sharing)
+
 ## Примеры решения задач
 
 https://github.com/bohdanvan/javaoop
