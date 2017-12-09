@@ -5,7 +5,14 @@ package com.bvan.oop.lessons3_4.shape;
  */
 public interface Shape {
 
-    String getName();
     double getPerimeter();
     double getArea();
+
+    default String getName() {
+        return "unnamed";
+    }
+
+    default void draw() {
+        throw new UnsupportedOperationException();
+    }
 }
