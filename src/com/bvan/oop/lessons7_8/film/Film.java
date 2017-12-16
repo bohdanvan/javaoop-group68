@@ -1,6 +1,6 @@
-package com.bvan.oop.lessons7_8;
+package com.bvan.oop.lessons7_8.film;
 
-import com.bvan.oop.lessons7_8.sorting.Genre;
+import com.bvan.oop.lessons7_8.film.Genre;
 
 import java.util.List;
 
